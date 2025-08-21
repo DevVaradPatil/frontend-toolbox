@@ -1,0 +1,122 @@
+[
+  {
+    "id": "sunset",
+    "name": "Sunset Vibes",
+    "colors": ["#ff7e5f", "#feb47b"],
+    "type": "linear",
+    "direction": "to right",
+    "category": "warm"
+  },
+  {
+    "id": "ocean",
+    "name": "Deep Ocean",
+    "colors": ["#2193b0", "#6dd5ed"],
+    "type": "linear",
+    "direction": "to bottom",
+    "category": "cool"
+  },
+  {
+    "id": "purple-haze",
+    "name": "Purple Haze",
+    "colors": ["#c33764", "#1d2671"],
+    "type": "linear",
+    "direction": "to bottom right",
+    "category": "vibrant"
+  },
+  {
+    "id": "emerald",
+    "name": "Emerald Water",
+    "colors": ["#348F50", "#56B4D3"],
+    "type": "linear",
+    "direction": "to right",
+    "category": "cool"
+  },
+  {
+    "id": "crimson",
+    "name": "Crimson Tide",
+    "colors": ["#642B73", "#C6426E"],
+    "type": "linear",
+    "direction": "to top",
+    "category": "vibrant"
+  },
+  {
+    "id": "amber",
+    "name": "Amber Glow",
+    "colors": ["#ee0979", "#ff6a00"],
+    "type": "linear",
+    "direction": "to top right",
+    "category": "warm"
+  },
+  {
+    "id": "sublime",
+    "name": "Sublime Light",
+    "colors": ["#FC5C7D", "#6A82FB"],
+    "type": "linear",
+    "direction": "135deg",
+    "category": "vibrant"
+  },
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "colors": ["#1D976C", "#93F9B9"],
+    "type": "linear",
+    "direction": "to right",
+    "category": "cool"
+  },
+  {
+    "id": "burning-orange",
+    "name": "Burning Orange",
+    "colors": ["#FF416C", "#FF4B2B"],
+    "type": "linear",
+    "direction": "to right",
+    "category": "warm"
+  },
+  {
+    "id": "wiretap",
+    "name": "Wiretap",
+    "colors": ["#8A2387", "#E94057", "#F27121"],
+    "type": "linear",
+    "direction": "to right",
+    "category": "vibrant"
+  },
+  {
+    "id": "frost",
+    "name": "Frosty Morning",
+    "colors": ["#000428", "#004e92"],
+    "type": "linear",
+    "direction": "to top",
+    "category": "cool"
+  },
+  {
+    "id": "lush",
+    "name": "Lush",
+    "colors": ["#56ab2f", "#a8e063"],
+    "type": "linear",
+    "direction": "to top left",
+    "category": "cool"
+  },
+  {
+    "id": "dusk",
+    "name": "Dusk",
+    "colors": ["#2C3E50", "#4CA1AF"],
+    "type": "radial",
+    "direction": "circle",
+    "category": "cool"
+  },
+  {
+    "id": "candy",
+    "name": "Cotton Candy",
+    "colors": ["#DB36A4", "#F7FF00"],
+    "type": "linear",
+    "direction": "to bottom",
+    "category": "vibrant"
+  },
+  {
+    "id": "midnight",
+    "name": "Midnight City",
+    "colors": ["#232526", "#414345"],
+    "type": "linear",
+    "direction": "to right",
+    "category": "dark"
+  }
+]

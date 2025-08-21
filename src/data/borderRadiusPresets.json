@@ -1,0 +1,137 @@
+[
+  {
+    "id": "rounded",
+    "name": "Rounded",
+    "topLeft": "4px",
+    "topRight": "4px",
+    "bottomRight": "4px",
+    "bottomLeft": "4px",
+    "category": "basic"
+  },
+  {
+    "id": "rounded-lg",
+    "name": "Rounded Large",
+    "topLeft": "8px",
+    "topRight": "8px",
+    "bottomRight": "8px",
+    "bottomLeft": "8px",
+    "category": "basic"
+  },
+  {
+    "id": "rounded-xl",
+    "name": "Rounded Extra Large",
+    "topLeft": "12px",
+    "topRight": "12px",
+    "bottomRight": "12px",
+    "bottomLeft": "12px",
+    "category": "basic"
+  },
+  {
+    "id": "rounded-full",
+    "name": "Pill",
+    "topLeft": "9999px",
+    "topRight": "9999px",
+    "bottomRight": "9999px",
+    "bottomLeft": "9999px",
+    "category": "basic"
+  },
+  {
+    "id": "rounded-top",
+    "name": "Rounded Top",
+    "topLeft": "8px",
+    "topRight": "8px",
+    "bottomRight": "0px",
+    "bottomLeft": "0px",
+    "category": "partial"
+  },
+  {
+    "id": "rounded-bottom",
+    "name": "Rounded Bottom",
+    "topLeft": "0px",
+    "topRight": "0px",
+    "bottomRight": "8px",
+    "bottomLeft": "8px",
+    "category": "partial"
+  },
+  {
+    "id": "rounded-left",
+    "name": "Rounded Left",
+    "topLeft": "8px",
+    "topRight": "0px",
+    "bottomRight": "0px",
+    "bottomLeft": "8px",
+    "category": "partial"
+  },
+  {
+    "id": "rounded-right",
+    "name": "Rounded Right",
+    "topLeft": "0px",
+    "topRight": "8px",
+    "bottomRight": "8px",
+    "bottomLeft": "0px",
+    "category": "partial"
+  },
+  {
+    "id": "rounded-tl",
+    "name": "Rounded Top Left",
+    "topLeft": "8px",
+    "topRight": "0px",
+    "bottomRight": "0px",
+    "bottomLeft": "0px",
+    "category": "corner"
+  },
+  {
+    "id": "rounded-tr",
+    "name": "Rounded Top Right",
+    "topLeft": "0px",
+    "topRight": "8px",
+    "bottomRight": "0px",
+    "bottomLeft": "0px",
+    "category": "corner"
+  },
+  {
+    "id": "rounded-br",
+    "name": "Rounded Bottom Right",
+    "topLeft": "0px",
+    "topRight": "0px",
+    "bottomRight": "8px",
+    "bottomLeft": "0px",
+    "category": "corner"
+  },
+  {
+    "id": "rounded-bl",
+    "name": "Rounded Bottom Left",
+    "topLeft": "0px",
+    "topRight": "0px",
+    "bottomRight": "0px",
+    "bottomLeft": "8px",
+    "category": "corner"
+  },
+  {
+    "id": "ticket",
+    "name": "Ticket Edge",
+    "topLeft": "10px",
+    "topRight": "10px",
+    "bottomRight": "10px",
+    "bottomLeft": "10px",
+    "category": "special"
+  },
+  {
+    "id": "chat-bubble",
+    "name": "Chat Bubble",
+    "topLeft": "20px",
+    "topRight": "20px",
+    "bottomRight": "20px",
+    "bottomLeft": "0px",
+    "category": "special"
+  },
+  {
+    "id": "button-fancy",
+    "name": "Fancy Button",
+    "topLeft": "40px",
+    "topRight": "4px",
+    "bottomRight": "40px",
+    "bottomLeft": "4px",
+    "category": "special"
+  }
+]

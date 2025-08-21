@@ -1,0 +1,434 @@
+[
+  {
+    "id": "subtle",
+    "name": "Subtle Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "2px",
+    "blurRadius": "4px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.1)",
+    "inset": false,
+    "category": "subtle"
+  },
+  {
+    "id": "subtle-light",
+    "name": "Subtle Light Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "1px",
+    "blurRadius": "3px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.05)",
+    "inset": false,
+    "category": "subtle"
+  },
+  {
+    "id": "subtle-edge",
+    "name": "Subtle Edge Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "1px",
+    "blurRadius": "2px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.08)",
+    "inset": false,
+    "category": "subtle"
+  },
+  {
+    "id": "medium",
+    "name": "Medium Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "4px",
+    "blurRadius": "6px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.15)",
+    "inset": false,
+    "category": "medium"
+  },
+  {
+    "id": "medium-soft",
+    "name": "Medium Soft Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "6px",
+    "blurRadius": "10px",
+    "spreadRadius": "-2px",
+    "color": "rgba(0, 0, 0, 0.12)",
+    "inset": false,
+    "category": "medium"
+  },
+  {
+    "id": "medium-spread",
+    "name": "Medium Spread Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "3px",
+    "blurRadius": "8px",
+    "spreadRadius": "1px",
+    "color": "rgba(0, 0, 0, 0.14)",
+    "inset": false,
+    "category": "medium"
+  },
+  {
+    "id": "card",
+    "name": "Card Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "10px",
+    "blurRadius": "15px",
+    "spreadRadius": "-3px",
+    "color": "rgba(0, 0, 0, 0.1)",
+    "inset": false,
+    "category": "card"
+  },
+  {
+    "id": "card-elevated",
+    "name": "Elevated Card Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "15px",
+    "blurRadius": "25px",
+    "spreadRadius": "-5px",
+    "color": "rgba(0, 0, 0, 0.12)",
+    "inset": false,
+    "category": "card"
+  },
+  {
+    "id": "card-hover",
+    "name": "Card Hover Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "20px",
+    "blurRadius": "35px",
+    "spreadRadius": "-8px",
+    "color": "rgba(0, 0, 0, 0.15)",
+    "inset": false,
+    "category": "card"
+  },
+  {
+    "id": "harsh",
+    "name": "Harsh Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "14px",
+    "blurRadius": "28px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.25)",
+    "inset": false,
+    "category": "harsh"
+  },
+  {
+    "id": "harsh-dark",
+    "name": "Harsh Dark Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "16px",
+    "blurRadius": "32px",
+    "spreadRadius": "2px",
+    "color": "rgba(0, 0, 0, 0.3)",
+    "inset": false,
+    "category": "harsh"
+  },
+  {
+    "id": "harsh-offset",
+    "name": "Harsh Offset Shadow",
+    "horizontalOffset": "8px",
+    "verticalOffset": "16px",
+    "blurRadius": "24px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.28)",
+    "inset": false,
+    "category": "harsh"
+  },
+  {
+    "id": "layered1",
+    "name": "Layered Shadow 1",
+    "multiShadow": [
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "1px", 
+        "blurRadius": "3px", 
+        "spreadRadius": "0px", 
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "1px", 
+        "blurRadius": "2px", 
+        "spreadRadius": "0px", 
+        "color": "rgba(0, 0, 0, 0.24)"
+      }
+    ],
+    "category": "layered"
+  },
+  {
+    "id": "layered2",
+    "name": "Layered Shadow 2",
+    "multiShadow": [
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "4px", 
+        "blurRadius": "6px", 
+        "spreadRadius": "0px", 
+        "color": "rgba(0, 0, 0, 0.1)"
+      },
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "1px", 
+        "blurRadius": "3px", 
+        "spreadRadius": "0px", 
+        "color": "rgba(0, 0, 0, 0.08)"
+      }
+    ],
+    "category": "layered"
+  },
+  {
+    "id": "layered3",
+    "name": "Layered Shadow 3",
+    "multiShadow": [
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "8px", 
+        "blurRadius": "16px", 
+        "spreadRadius": "-4px", 
+        "color": "rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "2px", 
+        "blurRadius": "6px", 
+        "spreadRadius": "0px", 
+        "color": "rgba(0, 0, 0, 0.06)"
+      }
+    ],
+    "category": "layered"
+  },
+  {
+    "id": "layered-deep",
+    "name": "Deep Layered Shadow",
+    "multiShadow": [
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "12px", 
+        "blurRadius": "24px", 
+        "spreadRadius": "-6px", 
+        "color": "rgba(0, 0, 0, 0.12)"
+      },
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "4px", 
+        "blurRadius": "8px", 
+        "spreadRadius": "0px", 
+        "color": "rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "horizontalOffset": "0px", 
+        "verticalOffset": "1px", 
+        "blurRadius": "2px", 
+        "spreadRadius": "0px", 
+        "color": "rgba(0, 0, 0, 0.16)"
+      }
+    ],
+    "category": "layered"
+  },
+  {
+    "id": "material-1",
+    "name": "Material Design 1",
+    "horizontalOffset": "0px",
+    "verticalOffset": "1px",
+    "blurRadius": "3px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.12)",
+    "inset": false,
+    "category": "material"
+  },
+  {
+    "id": "material-2",
+    "name": "Material Design 2",
+    "horizontalOffset": "0px",
+    "verticalOffset": "3px",
+    "blurRadius": "6px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.16)",
+    "inset": false,
+    "category": "material"
+  },
+  {
+    "id": "material-3",
+    "name": "Material Design 3",
+    "horizontalOffset": "0px",
+    "verticalOffset": "10px",
+    "blurRadius": "20px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.19)",
+    "inset": false,
+    "category": "material"
+  },
+  {
+    "id": "material-4",
+    "name": "Material Design 4",
+    "horizontalOffset": "0px",
+    "verticalOffset": "14px",
+    "blurRadius": "28px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.25)",
+    "inset": false,
+    "category": "material"
+  },
+  {
+    "id": "material-5",
+    "name": "Material Design 5",
+    "horizontalOffset": "0px",
+    "verticalOffset": "19px",
+    "blurRadius": "38px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.30)",
+    "inset": false,
+    "category": "material"
+  },
+  {
+    "id": "inner",
+    "name": "Inner Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "2px",
+    "blurRadius": "4px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.06)",
+    "inset": true,
+    "category": "inset"
+  },
+  {
+    "id": "inner-harsh",
+    "name": "Harsh Inner Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "4px",
+    "blurRadius": "8px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.2)",
+    "inset": true,
+    "category": "inset"
+  },
+  {
+    "id": "inner-soft",
+    "name": "Soft Inner Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "1px",
+    "blurRadius": "6px",
+    "spreadRadius": "0px",
+    "color": "rgba(0, 0, 0, 0.04)",
+    "inset": true,
+    "category": "inset"
+  },
+  {
+    "id": "inner-deep",
+    "name": "Deep Inner Shadow",
+    "horizontalOffset": "0px",
+    "verticalOffset": "6px",
+    "blurRadius": "12px",
+    "spreadRadius": "2px",
+    "color": "rgba(0, 0, 0, 0.15)",
+    "inset": true,
+    "category": "inset"
+  },
+  {
+    "id": "float",
+    "name": "Floating Effect",
+    "horizontalOffset": "0px",
+    "verticalOffset": "8px",
+    "blurRadius": "16px",
+    "spreadRadius": "-4px",
+    "color": "rgba(0, 0, 0, 0.1)",
+    "inset": false,
+    "category": "special"
+  },
+  {
+    "id": "perspective",
+    "name": "Perspective Shadow",
+    "horizontalOffset": "12px",
+    "verticalOffset": "12px",
+    "blurRadius": "18px",
+    "spreadRadius": "-12px",
+    "color": "rgba(0, 0, 0, 0.2)",
+    "inset": false,
+    "category": "special"
+  },
+  {
+    "id": "glow",
+    "name": "Glow Effect",
+    "horizontalOffset": "0px",
+    "verticalOffset": "0px",
+    "blurRadius": "20px",
+    "spreadRadius": "4px",
+    "color": "rgba(255, 255, 255, 0.3)",
+    "inset": false,
+    "category": "special"
+  },
+  {
+    "id": "pressed",
+    "name": "Pressed Effect",
+    "horizontalOffset": "0px",
+    "verticalOffset": "2px",
+    "blurRadius": "4px",
+    "spreadRadius": "-2px",
+    "color": "rgba(0, 0, 0, 0.15)",
+    "inset": false,
+    "category": "special"
+  },
+  {
+    "id": "neon-blue",
+    "name": "Neon Blue",
+    "horizontalOffset": "0px",
+    "verticalOffset": "0px",
+    "blurRadius": "15px",
+    "spreadRadius": "2px",
+    "color": "rgba(0, 162, 255, 0.7)",
+    "inset": false,
+    "category": "colored"
+  },
+  {
+    "id": "neon-purple",
+    "name": "Neon Purple",
+    "horizontalOffset": "0px",
+    "verticalOffset": "0px",
+    "blurRadius": "15px",
+    "spreadRadius": "2px",
+    "color": "rgba(157, 78, 221, 0.7)",
+    "inset": false,
+    "category": "colored"
+  },
+  {
+    "id": "neon-green",
+    "name": "Neon Green",
+    "horizontalOffset": "0px",
+    "verticalOffset": "0px",
+    "blurRadius": "15px",
+    "spreadRadius": "2px",
+    "color": "rgba(0, 255, 127, 0.7)",
+    "inset": false,
+    "category": "colored"
+  },
+  {
+    "id": "neon-pink",
+    "name": "Neon Pink",
+    "horizontalOffset": "0px",
+    "verticalOffset": "0px",
+    "blurRadius": "15px",
+    "spreadRadius": "2px",
+    "color": "rgba(255, 20, 147, 0.7)",
+    "inset": false,
+    "category": "colored"
+  },
+  {
+    "id": "warm-orange",
+    "name": "Warm Orange",
+    "horizontalOffset": "0px",
+    "verticalOffset": "4px",
+    "blurRadius": "12px",
+    "spreadRadius": "0px",
+    "color": "rgba(255, 165, 0, 0.5)",
+    "inset": false,
+    "category": "colored"
+  },
+  {
+    "id": "cool-blue",
+    "name": "Cool Blue",
+    "horizontalOffset": "0px",
+    "verticalOffset": "6px",
+    "blurRadius": "14px",
+    "spreadRadius": "-2px",
+    "color": "rgba(100, 149, 237, 0.4)",
+    "inset": false,
+    "category": "colored"
+  }
+]

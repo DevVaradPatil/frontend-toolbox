@@ -1,0 +1,286 @@
+{
+  "buttons": [
+    {
+      "id": "basic-primary",
+      "name": "Basic Primary",
+      "category": "standard",
+      "css": "background-color: #3b82f6;\ncolor: white;\npadding: 8px 16px;\nborder: none;\nborder-radius: 4px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: background-color 0.2s ease;",
+      "cssHover": "background-color: #2563eb;",
+      "html": "<button class=\"btn-basic-primary\">Click me</button>"
+    },
+    {
+      "id": "basic-secondary",
+      "name": "Basic Secondary",
+      "category": "standard",
+      "css": "background-color: #6b7280;\ncolor: white;\npadding: 8px 16px;\nborder: none;\nborder-radius: 4px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: background-color 0.2s ease;",
+      "cssHover": "background-color: #4b5563;",
+      "html": "<button class=\"btn-basic-secondary\">Click me</button>"
+    },
+    {
+      "id": "outline-primary",
+      "name": "Outline Primary",
+      "category": "standard",
+      "css": "background-color: transparent;\ncolor: #3b82f6;\npadding: 8px 16px;\nborder: 2px solid #3b82f6;\nborder-radius: 4px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: all 0.2s ease;",
+      "cssHover": "background-color: #3b82f6;\ncolor: white;",
+      "html": "<button class=\"btn-outline-primary\">Click me</button>"
+    },
+    {
+      "id": "rounded-gradient",
+      "name": "Rounded Gradient",
+      "category": "modern",
+      "css": "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 25px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\ntransition: transform 0.2s ease, box-shadow 0.2s ease;\nbox-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);",
+      "cssHover": "transform: translateY(-2px);\nbox-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);",
+      "html": "<button class=\"btn-rounded-gradient\">Click me</button>"
+    },
+    {
+      "id": "glass-morphism",
+      "name": "Glassmorphism",
+      "category": "modern",
+      "css": "background: rgba(255, 255, 255, 0.1);\ncolor: #333;\npadding: 12px 24px;\nborder: 1px solid rgba(255, 255, 255, 0.2);\nborder-radius: 12px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\nbackdrop-filter: blur(10px);\n-webkit-backdrop-filter: blur(10px);\nbox-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);\ntransition: all 0.3s ease;",
+      "cssHover": "background: rgba(255, 255, 255, 0.2);\ntransform: translateY(-1px);",
+      "html": "<button class=\"btn-glass-morphism\">Click me</button>"
+    },
+    {
+      "id": "neon-glow",
+      "name": "Neon Glow",
+      "category": "fancy",
+      "css": "background-color: #000;\ncolor: #00ff88;\npadding: 12px 24px;\nborder: 2px solid #00ff88;\nborder-radius: 8px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\ntext-transform: uppercase;\nletter-spacing: 1px;\nbox-shadow: 0 0 10px #00ff88, inset 0 0 10px rgba(0, 255, 136, 0.1);\ntransition: all 0.3s ease;\nposition: relative;\noverflow: hidden;",
+      "cssHover": "box-shadow: 0 0 20px #00ff88, 0 0 30px #00ff88, inset 0 0 20px rgba(0, 255, 136, 0.2);\ntext-shadow: 0 0 10px #00ff88;",
+      "html": "<button class=\"btn-neon-glow\">Click me</button>"
+    },
+    {
+      "id": "animated-gradient",
+      "name": "Animated Gradient",
+      "category": "fancy",
+      "css": "background: linear-gradient(-45deg, #ff6b6b, #4ecdc4, #45b7d1, #f9ca24);\nbackground-size: 400% 400%;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 8px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nanimation: gradientShift 3s ease infinite;\ntransition: transform 0.2s ease;",
+      "cssHover": "transform: scale(1.05);",
+      "html": "<button class=\"btn-animated-gradient\">Click me</button>",
+      "keyframes": "@keyframes gradientShift {\n  0% { background-position: 0% 50%; }\n  50% { background-position: 100% 50%; }\n  100% { background-position: 0% 50%; }\n}"
+    },
+    {
+      "id": "liquid-button",
+      "name": "Liquid Effect",
+      "category": "fancy",
+      "css": "background-color: #6c63ff;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 50px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\noverflow: hidden;\ntransition: all 0.3s ease;\nbox-shadow: 0 4px 15px rgba(108, 99, 255, 0.3);",
+      "cssHover": "transform: translateY(-3px);\nbox-shadow: 0 6px 20px rgba(108, 99, 255, 0.4);",
+      "cssAfter": "content: '';\nposition: absolute;\ntop: 50%;\nleft: 50%;\nwidth: 0;\nheight: 0;\nbackground: rgba(255, 255, 255, 0.2);\nborder-radius: 50%;\ntransition: all 0.5s ease;\ntransform: translate(-50%, -50%);",
+      "cssHoverAfter": "width: 300px;\nheight: 300px;",
+      "html": "<button class=\"btn-liquid\">Click me</button>"
+    },
+    {
+      "id": "neumorphism",
+      "name": "Neumorphism",
+      "category": "modern",
+      "css": "background: #e0e5ec;\ncolor: #333;\npadding: 12px 24px;\nborder: none;\nborder-radius: 12px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nbox-shadow: 6px 6px 12px #c8d0e7, -6px -6px 12px #f8ffff;\ntransition: all 0.2s ease;",
+      "cssHover": "box-shadow: 3px 3px 6px #c8d0e7, -3px -3px 6px #f8ffff;",
+      "html": "<button class=\"btn-neumorphism\">Click me</button>"
+    },
+    {
+      "id": "pulse-effect",
+      "name": "Pulse Effect",
+      "category": "fancy",
+      "css": "background-color: #e91e63;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 8px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\noverflow: hidden;\ntransition: all 0.3s ease;\nbox-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7);\nanimation: pulse 2s infinite;",
+      "cssHover": "transform: scale(1.05);",
+      "html": "<button class=\"btn-pulse\">Click me</button>",
+      "keyframes": "@keyframes pulse {\n  0% { box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7); }\n  70% { box-shadow: 0 0 0 10px rgba(233, 30, 99, 0); }\n  100% { box-shadow: 0 0 0 0 rgba(233, 30, 99, 0); }\n}"
+    },
+    {
+      "id": "loading-spinner",
+      "name": "Loading Spinner",
+      "category": "interactive",
+      "css": "background-color: #4caf50;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 6px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\ntransition: all 0.3s ease;\nposition: relative;\nmin-width: 120px;",
+      "cssLoading": "background-color: #81c784;\ncursor: not-allowed;\ncolor: transparent;",
+      "cssAfterLoading": "content: '';\nposition: absolute;\ntop: 50%;\nleft: 50%;\nwidth: 16px;\nheight: 16px;\nmargin: -8px 0 0 -8px;\nborder: 2px solid #ffffff;\nborder-radius: 50%;\nborder-top-color: transparent;\nanimation: spin 1s linear infinite;",
+      "html": "<button class=\"btn-loading\" onclick=\"this.classList.toggle('loading')\">Click me</button>",
+      "keyframes": "@keyframes spin {\n  to { transform: rotate(360deg); }\n}"
+    },
+    {
+      "id": "3d-button",
+      "name": "3D Button",
+      "category": "fancy",
+      "css": "background: linear-gradient(145deg, #667eea, #764ba2);\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 8px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nbox-shadow: 0 9px #5a67d8, 0 9px 25px rgba(0, 0, 0, 0.3);\ntransition: all 0.1s ease;\ntransform: translateY(0);",
+      "cssActive": "box-shadow: 0 5px #5a67d8, 0 5px 15px rgba(0, 0, 0, 0.3);\ntransform: translateY(4px);",
+      "html": "<button class=\"btn-3d\">Click me</button>"
+    },
+        {
+      "id": "outline-success",
+      "name": "Outline Success",
+      "category": "standard",
+      "css": "background-color: transparent;\ncolor: #10b981;\npadding: 8px 16px;\nborder: 2px solid #10b981;\nborder-radius: 4px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: all 0.2s ease;",
+      "cssHover": "background-color: #10b981;\ncolor: white;",
+      "html": "<button class=\"btn-outline-success\">Click me</button>"
+    },
+    {
+      "id": "basic-danger",
+      "name": "Basic Danger",
+      "category": "standard",
+      "css": "background-color: #ef4444;\ncolor: white;\npadding: 8px 16px;\nborder: none;\nborder-radius: 4px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: background-color 0.2s ease;",
+      "cssHover": "background-color: #dc2626;",
+      "html": "<button class=\"btn-basic-danger\">Click me</button>"
+    },
+    {
+      "id": "holographic",
+      "name": "Holographic",
+      "category": "modern",
+      "css": "background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #f9ca24, #ff6b6b);\nbackground-size: 300% 300%;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 16px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\noverflow: hidden;\nanimation: holographic 4s ease-in-out infinite;\nbox-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);",
+      "cssHover": "transform: translateY(-2px);\nbox-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);",
+      "html": "<button class=\"btn-holographic\">Click me</button>",
+      "keyframes": "@keyframes holographic {\n  0%, 100% { background-position: 0% 50%; }\n  25% { background-position: 100% 0%; }\n  50% { background-position: 100% 100%; }\n  75% { background-position: 0% 100%; }\n}"
+    },
+    {
+      "id": "morphing-border",
+      "name": "Morphing Border",
+      "category": "modern",
+      "css": "background: #1a1a1a;\ncolor: #fff;\npadding: 12px 24px;\nborder: 2px solid;\nborder-image: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #ff6b6b) 1;\nborder-radius: 8px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\noverflow: hidden;\ntransition: all 0.3s ease;\nanimation: borderShift 3s linear infinite;",
+      "cssHover": "transform: scale(1.02);\nbox-shadow: 0 0 20px rgba(255, 107, 107, 0.3);",
+      "html": "<button class=\"btn-morphing-border\">Click me</button>",
+      "keyframes": "@keyframes borderShift {\n  0% { border-image: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #ff6b6b) 1; }\n  25% { border-image: linear-gradient(45deg, #4ecdc4, #45b7d1, #ff6b6b, #4ecdc4) 1; }\n  50% { border-image: linear-gradient(45deg, #45b7d1, #ff6b6b, #4ecdc4, #45b7d1) 1; }\n  75% { border-image: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #ff6b6b) 1; }\n  100% { border-image: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #ff6b6b) 1; }\n}"
+    },
+    {
+      "id": "cyber-glitch",
+      "name": "Cyber Glitch",
+      "category": "fancy",
+      "css": "background: linear-gradient(135deg, #667eea, #764ba2);\ncolor: #fff;\npadding: 12px 24px;\nborder: none;\nborder-radius: 4px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\ntext-transform: uppercase;\nletter-spacing: 2px;\nposition: relative;\noverflow: hidden;\ntransition: all 0.3s ease;\nbox-shadow: 0 0 20px rgba(102, 126, 234, 0.3);",
+      "cssHover": "animation: glitch 0.5s ease-in-out;\nbox-shadow: 0 0 30px rgba(102, 126, 234, 0.6);",
+      "html": "<button class=\"btn-cyber-glitch\">Click me</button>",
+      "keyframes": "@keyframes glitch {\n  0%, 100% { transform: translate(0); }\n  10% { transform: translate(-2px, -2px); }\n  20% { transform: translate(2px, 2px); }\n  30% { transform: translate(-2px, 2px); }\n  40% { transform: translate(2px, -2px); }\n  50% { transform: translate(-2px, -2px); }\n  60% { transform: translate(2px, 2px); }\n  70% { transform: translate(-2px, 2px); }\n  80% { transform: translate(2px, -2px); }\n  90% { transform: translate(-2px, -2px); }\n}"
+    },
+    {
+      "id": "plasma-wave",
+      "name": "Plasma Wave",
+      "category": "fancy",
+      "css": "background: radial-gradient(circle at 50% 50%, #ff6b6b, #4ecdc4, #45b7d1);\nbackground-size: 200% 200%;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 50px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\noverflow: hidden;\nanimation: plasma 3s ease-in-out infinite;\nbox-shadow: 0 4px 20px rgba(255, 107, 107, 0.4);\ntransition: transform 0.2s ease;",
+      "cssHover": "transform: scale(1.05);",
+      "html": "<button class=\"btn-plasma-wave\">Click me</button>",
+      "keyframes": "@keyframes plasma {\n  0%, 100% { background-position: 0% 0%; }\n  25% { background-position: 100% 0%; }\n  50% { background-position: 100% 100%; }\n  75% { background-position: 0% 100%; }\n}"
+    },
+    {
+      "id": "ripple-effect",
+      "name": "Ripple Effect",
+      "category": "interactive",
+      "css": "background-color: #2196f3;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 8px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\noverflow: hidden;\ntransition: all 0.3s ease;\nbox-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);",
+      "cssHover": "transform: translateY(-2px);\nbox-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);",
+      "cssAfter": "content: '';\nposition: absolute;\ntop: 50%;\nleft: 50%;\nwidth: 0;\nheight: 0;\nborder-radius: 50%;\nbackground: rgba(255, 255, 255, 0.3);\ntransition: all 0.6s ease;\ntransform: translate(-50%, -50%);",
+      "cssActive": "background-color: #1976d2;",
+      "cssActiveAfter": "width: 300px;\nheight: 300px;",
+      "html": "<button class=\"btn-ripple\">Click me</button>"
+    },
+    {
+      "id": "magnetic-hover",
+      "name": "Magnetic Hover",
+      "category": "interactive",
+      "css": "background: linear-gradient(135deg, #8b5cf6, #a855f7);\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 12px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\ntransition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);\nbox-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);\nposition: relative;\noverflow: hidden;",
+      "cssHover": "transform: translateY(-8px) scale(1.02);\nbox-shadow: 0 12px 40px rgba(139, 92, 246, 0.4);\nbackground: linear-gradient(135deg, #7c3aed, #8b5cf6);",
+      "html": "<button class=\"btn-magnetic\">Click me</button>"
+    },
+    {
+      "id": "retro-wave",
+      "name": "Retro Wave",
+      "category": "fancy",
+      "css": "background: linear-gradient(135deg, #ff0080, #7928ca, #ff0080);\nbackground-size: 200% 200%;\ncolor: #fff;\npadding: 12px 24px;\nborder: 2px solid #ff0080;\nborder-radius: 0;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 700;\ntext-transform: uppercase;\nletter-spacing: 1px;\nfont-family: 'Courier New', monospace;\nbox-shadow: 0 0 20px rgba(255, 0, 128, 0.5), inset 0 0 20px rgba(255, 0, 128, 0.1);\nanimation: retroShift 2s ease-in-out infinite;\ntransition: all 0.3s ease;",
+      "cssHover": "transform: scale(1.05);\nbox-shadow: 0 0 30px rgba(255, 0, 128, 0.7), inset 0 0 30px rgba(255, 0, 128, 0.2);",
+      "html": "<button class=\"btn-retro-wave\">Click me</button>",
+      "keyframes": "@keyframes retroShift {\n  0%, 100% { background-position: 0% 50%; }\n  50% { background-position: 100% 50%; }\n}"
+    },
+    {
+      "id": "floating-action",
+      "name": "Floating Action",
+      "category": "modern",
+      "css": "background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\ncolor: white;\npadding: 16px;\nborder: none;\nborder-radius: 50%;\ncursor: pointer;\nfont-size: 18px;\nfont-weight: 600;\nwidth: 56px;\nheight: 56px;\ndisplay: flex;\nalign-items: center;\njustify-content: center;\nbox-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);\ntransition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\nposition: relative;\noverflow: hidden;",
+      "cssHover": "transform: translateY(-4px) scale(1.1);\nbox-shadow: 0 12px 30px rgba(102, 126, 234, 0.6);",
+      "cssActive": "transform: translateY(-2px) scale(1.05);",
+      "html": "<button class=\"btn-floating\">+</button>",
+      "txt": "+"
+    },
+        {
+      "id": "outline-secondary",
+      "name": "Outline Secondary",
+      "category": "standard",
+      "css": "background-color: transparent;\ncolor: #6b7280;\npadding: 8px 16px;\nborder: 2px solid #6b7280;\nborder-radius: 4px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: all 0.2s ease;",
+      "cssHover": "background-color: #6b7280;\ncolor: white;",
+      "html": "<button class=\"btn-outline-secondary\">Click me</button>"
+    },
+    {
+      "id": "text-button",
+      "name": "Text Button",
+      "category": "standard",
+      "css": "background-color: transparent;\ncolor: #3b82f6;\npadding: 8px 16px;\nborder: none;\nborder-radius: 4px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: background-color 0.2s ease;",
+      "cssHover": "background-color: #eff6ff;",
+      "html": "<button class=\"btn-text-button\">Click me</button>"
+    },
+    {
+      "id": "shadow-lift",
+      "name": "Shadow Lift",
+      "category": "modern",
+      "css": "background-color: white;\ncolor: #1f2937;\npadding: 12px 24px;\nborder: 1px solid #e5e7eb;\nborder-radius: 8px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nbox-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);\ntransition: transform 0.2s ease, box-shadow 0.2s ease;",
+      "cssHover": "transform: translateY(-2px);\nbox-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);",
+      "html": "<button class=\"btn-shadow-lift\">Click me</button>"
+    },
+    {
+      "id": "pill-button",
+      "name": "Pill Button",
+      "category": "modern",
+      "css": "background-color: #8b5cf6;\ncolor: white;\npadding: 10px 20px;\nborder: none;\nborder-radius: 9999px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: background-color 0.2s ease;",
+      "cssHover": "background-color: #7c3aed;",
+      "html": "<button class=\"btn-pill-button\">Click me</button>"
+    },
+    {
+      "id": "social-icon",
+      "name": "Social Icon",
+      "category": "modern",
+      "css": "background-color: #111827;\ncolor: white;\nwidth: 44px;\nheight: 44px;\nborder: none;\nborder-radius: 50%;\ncursor: pointer;\nfont-size: 20px;\ntransition: transform 0.2s ease;\ndisplay: inline-flex;\nalign-items: center;\njustify-content: center;",
+      "cssHover": "transform: scale(1.1);",
+      "html": "<button class=\"btn-social-icon\">X</button>",
+      "txt": "X"
+    },
+    {
+      "id": "border-animate",
+      "name": "Border Animate",
+      "category": "fancy",
+      "css": "background: transparent;\ncolor: #ec4899;\npadding: 12px 24px;\nborder: none;\nborder-radius: 6px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\nz-index: 1;",
+      "cssHover": "color: white;",
+      "cssBefore": "content: '';\nposition: absolute;\ntop: 0;\nleft: 0;\nright: 0;\nbottom: 0;\npadding: 2px;\nborder-radius: 6px;\nbackground: linear-gradient(45deg, #8b5cf6, #ec4899);\n-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);\n-webkit-mask-composite: destination-out;\nmask-composite: exclude;\nz-index: -1;",
+      "cssAfter": "content: '';\nposition: absolute;\ntop: 0;\nleft: 0;\nwidth: 100%;\nheight: 100%;\nbackground: linear-gradient(45deg, #8b5cf6, #ec4899);\nborder-radius: 6px;\nopacity: 0;\ntransition: opacity 0.3s ease;\nz-index: -1;",
+      "cssHoverAfter": "opacity: 1;",
+      "html": "<button class=\"btn-border-animate\">Submit</button>"
+    },
+    {
+      "id": "shiny-effect",
+      "name": "Shiny Effect",
+      "category": "fancy",
+      "css": "background: #1e3a8a;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 8px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\noverflow: hidden;",
+      "cssAfter": "content: '';\nposition: absolute;\ntop: 0;\nleft: -100%;\nwidth: 50%;\nheight: 100%;\nbackground: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);\ntransition: left 0.5s ease;",
+      "cssHoverAfter": "left: 150%;",
+      "html": "<button class=\"btn-shiny-effect\">Click me</button>"
+    },
+    {
+      "id": "cyber-button",
+      "name": "Cyber Button",
+      "category": "fancy",
+      "css": "background: transparent;\ncolor: #00ff88;\npadding: 12px 24px;\nborder: 1px solid #00ff88;\nborder-radius: 0;\ncursor: pointer;\nfont-size: 16px;\ntext-transform: uppercase;\nposition: relative;\nbox-shadow: inset 0 0 0.5em 0 #00ff88, 0 0 0.5em 0 #00ff88;",
+      "cssHover": "box-shadow: inset 0 0 1em 0 #00ff88, 0 0 1em 0 #00ff88;",
+      "cssBefore": "pointer-events: none;\ncontent: '';\nposition: absolute;\nbackground: #00ff88;\ntop: 120%;\nleft: 0;\nwidth: 100%;\nheight: 100%;\ntransform: perspective(1em) rotateX(40deg) scale(1, 0.35);\nfilter: blur(1em);\nopacity: 0.7;\ntransition: all 0.3s ease;",
+      "cssHoverBefore": "opacity: 1;\ntransform: perspective(1em) rotateX(40deg) scale(1, 0.35) translateY(-50%);",
+      "html": "<button class=\"btn-cyber\">Cyber</button>"
+    },
+    {
+      "id": "success-state",
+      "name": "Success State",
+      "category": "interactive",
+      "css": "background-color: #3b82f6;\ncolor: white;\npadding: 10px 20px;\nborder: none;\nborder-radius: 6px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 500;\ntransition: all 0.3s ease;\nposition: relative;\nmin-width: 120px;\ntext-align: center;",
+      "cssSuccess": "background-color: #22c55e;\ncursor: default;\ncolor: transparent;",
+      "cssSuccessAfter": "content: 'Success ✔';\ncolor: white;\nposition: absolute;\nleft: 50%;\ntop: 50%;\ntransform: translate(-50%, -50%);",
+      "html": "<button class=\"btn-success-state\" onclick=\"this.classList.add('success')\">Submit</button>"
+    },
+    {
+      "id": "download-progress",
+      "name": "Download Progress",
+      "category": "interactive",
+      "css": "background-color: #1f2937;\ncolor: white;\npadding: 12px 24px;\nborder: none;\nborder-radius: 6px;\ncursor: pointer;\nfont-size: 14px;\nfont-weight: 600;\nposition: relative;\noverflow: hidden;",
+      "cssSpan": "position: relative;\nz-index: 2;",
+      "cssBefore": "content: '';\nposition: absolute;\ntop: 0;\nleft: 0;\nwidth: 0%;\nheight: 100%;\nbackground-color: #3b82f6;\ntransition: width 2s ease-out;\nz-index: 1;",
+      "cssDownloadingBefore": "width: 100%;",
+      "html": "<button class=\"btn-download-progress\" onclick=\"this.classList.add('downloading')\"><span>Download</span></button>"
+    }
+  ]
+}
