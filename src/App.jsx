@@ -3,7 +3,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { ThemeProvider, useTheme } from "./context/ThemeContext";
-import Sidebar from "./components/SideBar";
+import Sidebar from "./components/Sidebar";
 import ThemeToggle from "./components/ThemeToggle";
 import {
   BorderRadius,
