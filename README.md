@@ -32,7 +32,7 @@ A comprehensive collection of essential CSS tools and generators for web develop
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/frontend-toolbox.git
+   git clone https://github.com/DevVaradPatil/frontend-toolbox
    cd frontend-toolbox
    ```
 
